@@ -1,0 +1,49 @@
+<!doctype html>
+<head>
+  <title>Connect 4</title>
+  <link href="connect.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Connect Four</h1>
+<h2>Player VS Player</h2>
+
+<p>This is a PvP game. This means there is no CPU(AI) to play against so please grab a friend to enjoy!</p>
+
+
+<div id="game">
+  <table id="board"></table>
+</div>
+
+<form id="userMenu">
+  <label for="width">Width</label>
+  <select name="width" id="width">
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7" selected>7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select>
+  <br>
+  <label for="height">Height</label>
+  <select name="height" id="height">
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6" selected>6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select>
+<br>
+  <span id='user-note'></span>
+<br>
+<input type="button" id="restart" value="Restart">
+  </form>
+
+
+<script src="connect.js"></script>
+
+</body>
+</html>

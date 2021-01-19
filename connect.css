@@ -1,0 +1,92 @@
+body {
+	background-color: black;
+	color: whitesmoke;
+	margin: 0px;
+	min-height: 100vh;
+	text-align: center;
+}
+
+h1 {
+	color: darkorange;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 3px 3px 10px darkcyan;
+	font-family: papyrus, fantasy;
+	font-size: 4em;
+	border-bottom: 10px solid orangered;
+}
+
+h2 {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	text-shadow: 0px 0px 20px orangered;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 3em;
+}
+
+p {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	width: 600px;
+	margin: 0 auto;
+	text-indent: 20px;
+}
+
+#userMenu {
+	width: 200px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 25px;
+	background-color: orangered;
+	color: white;
+}
+#userMenu * {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+/* this is so you can see what column you are selecting to put the piece down */
+#column-top td:hover {
+	background-color: silver;
+}
+
+#board {
+	padding-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+}
+
+#board td {
+	width: 50px;
+	height: 50px;
+	border: solid 6px green;
+}
+
+/* pieces are div within game table cells: draw as colored circles */
+
+.piece {
+	margin: auto;
+	width: 45px;
+	height: 45px;
+	border-radius: 100px;
+	pointer-events: none;
+}
+
+.p1 {
+	background-color: red;
+}
+
+.p2 {
+	background-color: blue;
+}
+
+#column-top td {
+	border: dashed 2px lightgray;
+}
+
+/* this is so you can see what column you are selecting to put the piece down */
+#column-top td:hover {
+	background-color: silver;
+}
